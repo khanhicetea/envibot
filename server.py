@@ -1,6 +1,6 @@
 import tornado.ioloop
 import tornado.web
-from app.lib.stardict import IfoFileReader, IdxFileReader, DictFileReader
+from app.dictionary.stardict import IfoFileReader, IdxFileReader, DictFileReader
 from app.handler.bot import BotHandler
 
 
